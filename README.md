@@ -40,23 +40,23 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
+https://www.loom.com/share/eb21822632394e4797ae1c5f2e08599d
 
-`ADD_EMBEDDED_CODE_HERE`
+<div style="position: relative; padding-bottom: 64.67065868263472%; height: 0;"><iframe src="https://www.loom.com/embed/eb21822632394e4797ae1c5f2e08599d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+I felt slightly unprepared for the flex and responsive design of this website. Although I had previously thought that design seems to be less important than functionality, it plays a large role in presenting a good experience for the user, and I underestimated the time I would need to debug the presentation of the website. However, playing around with "inspect element" and playing around with style using developer tools allowed me to gain a better understanding of CSS styling. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would have implemented more of the stretch features, such as embedding a trailer and putting more details about the movie in the popup when a movie was selected. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+My understanding of event listeners has been strengthened, and made me realize how many user events there (clicking of buttons, entering in a text field, etc). I noticed several of my peers play around with more creative user events, such as hovering, that I also would like to try next time. 
 
 ### Open-source libraries used
 
@@ -65,3 +65,5 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+Arisa! My instructor and TA were also very helpful too. Thanks so much!
