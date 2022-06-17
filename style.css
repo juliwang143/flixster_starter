@@ -1,1 +1,155 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+}
 
+.text {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+#now-playing-header-wrapper {
+    margin: 0px;
+    text-align: center;
+}
+
+#now-playing-header {
+    margin: 0px;
+    padding: 1.5rem;
+}
+
+#movies-grid {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1300px) {
+    #movies-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #movies-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.movie-title-wrapper {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.container {
+    opacity: 1;
+}
+
+.movie-card{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 30px;
+    height: 40px;
+    padding-left: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+#search-container {
+    height: 40px;
+    padding: 20px;
+    margin-left: 1.5rem;
+}
+
+#load-more-movies-btn {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+}
+
+#search-btn {
+    text-align: center;
+}
+
+.movie-title {
+    overflow-wrap: break-word;
+    font-weight: bold;
+}
+
+#container {
+    background-color: darkslategrey;
+}
+
+.movie-title-wrapper {
+    position: relative;
+    text-align: center;
+    margin: 5%;
+}
+
+.load-wrapper {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: none;
+}
+
+.close-popup {
+    position: fixed;
+    top: 30%;
+    right: 20%;
+    background-color: red;
+    width: 2%;
+    height: 2%;
+}
+
+.popup {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.9);
+    padding: 0px;
+    overflow-wrap: break-word;
+}
+
+.popup-movie-title {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    top: 20%;
+}
+
+.popup {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.popup-movie-info-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
