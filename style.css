@@ -112,8 +112,8 @@ body {
 
 .close-popup {
     position: fixed;
-    top: 30%;
-    right: 20%;
+    top: 10%;
+    right: 10%;
     background-color: red;
     width: 2%;
     height: 2%;
@@ -152,4 +152,15 @@ body {
     display: flex;
     flex-direction: column;
     padding: 5rem;
+}
+
+.overview {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    border: black;
+    border-width: 0.1rem;
+    border-style: solid;
 }
